@@ -3,8 +3,33 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css">
-		<title>HTML Exercises</title>
+		<link rel="stylesheet" href="css/tyyli.css">
+		<title>My HTML Exercises</title>
+		<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 10px;
+			overflow: hidden;
+			background-color: #0099e6;
+		}
+		
+		li {
+			float: left;
+		}
+		
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		li a:hover {
+			background-color: #0465db;
+		}
+		</style>
 	</head>
 	<body>
 		<ul>
@@ -13,33 +38,46 @@
 			<li><a href="projects.html">Projects</a></li>
 		</ul>  
 		
-		<h1>HTML Exercises</h1>
+		<h1>My HTML Exercises</h1>
 
 	<!-- Exercise 1 -->
+	
+	<div class="grid-container">
+		<div class="grid-item">
+			<h2>Exercise 1</h2>
+			<h3>What is HTML?</h3>
+			<p>HTML stands for <b>Hyper Text Markup Language</b>. It is the <i>standard markup language</i> for creating Web pages.</p>
+			<p>The code consists of a series of <u>elements</u>. Elements tell the <abbr title="Chrome, Opera, Safari, etc.">browser</abbr> how to display the content.</p>
+			<img src="images/html_example.png" alt="Example picture" width="150px" height="150px">
+			<p>Examples taken from <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools</a></p>
+			<p>You can also read <a href="https://developer.mozilla.org/fi/docs/Web/HTML" target="_blank">Mozilla</a></p>
+		</div>
 		
-		<h2>Exercise 1</h2>
-		<h3>What is HTML?</h3>
-		<p>HTML stands for <b>Hyper Text Markup Language</b>. It is the <i>standard markup language</i> for creating Web pages.</p>
-		<p>The code consists of a series of <u>elements</u>. Elements tell the browser how to display the content.</p>
-		<p>Link to <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools</a></p>
-		<p>Link to <a href="https://developer.mozilla.org/fi/docs/Web/HTML" target="_blank">Mozilla</a></p>
-		
-		<img src="images/html_example.jpg" alt="Example" width="280px" height="200px">
-
 	<!-- Exercise 2 -->
 		
-		<h2>Exercise 2</h2>
-		<article>
-			<h3>Google Chrome</h3>
-			<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-		</article>
-		
-		<address>Hämeen ammattikorkeakoulu HAMK PL 230 13101 Hämeenlinna</address>
+		<div class="grid-item">
+			<h2>Exercise 2</h2>
+			<article>
+				<h3>Google Chrome</h3>
+				<img src="images/chrome_icon.png" alt="Example picture" width="100px" height="100px" style="float: right;">
+				<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+				<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+			</article><br>
+			<address>Hämeen ammattikorkeakoulu HAMK PL 230 13101 Hämeenlinna</address>
+		</div>
 		
 	<!-- Exercise 3 -->
 	
-		<h2>Exercise 3</h2>
-		<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-		</iframe>
+		<div class="grid-item">
+			<h2>Exercise 3</h2>
+			<h3>HTML and HTML5</h3>
+			<p>HTML5 was created by W3S and WHATWG. The last major HTML update was released in 1999. It was really outdated. 
+			Technologies have evolved since then. Also the usage of Internet grew worldwide.</p>
+			<p>HTML5 offers a smoother and more consistent experience for developers and users.</p> 
+			
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/8Z1eMy2FoX4">
+			</iframe>
+		</div>
+	</div>
 	</body>
 </html>

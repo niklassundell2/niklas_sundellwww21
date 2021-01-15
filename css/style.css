@@ -1,5 +1,31 @@
-body{
+body {
 	
-	background-color: #4dff85;
+	background-color: #d6e6ff;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	
+	text-align: center;
+	font-size: 16px;
+	color: red;
+	border-bottom: 2px solid red;
+	width: 200px;
+}
+
+.grid-container {
+	
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+.grid-item {
+	
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
 }
