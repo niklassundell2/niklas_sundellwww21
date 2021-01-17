@@ -13,6 +13,12 @@ h1 {
 	width: 200px;
 }
 
+figure {
+	
+	text-align: center;
+	font-style: italic;
+}
+
 .grid-container {
 	
 	display: grid;
