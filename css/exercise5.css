@@ -1,0 +1,19 @@
+.row {
+	
+	font-size: 18px;
+}
+
+.nav-item {
+	
+	font-size: 25px;
+	float: left;
+}
+
+.col-sm-3 {
+	
+	background-color: #f0f0f0; 
+	text-align: center; 
+	display: table; 
+	margin-right: auto; 
+	margin-left: auto;
+}
